@@ -1,6 +1,6 @@
 DAY 1:
     [x] Plan the workload goals for the day
-    [ ] Decide on the colorscheme, font and general layout
+    [x] Decide on the colorscheme, font and general layout
     [ ] Write all the text required
     [x] Make the public repo
     [x] write the TODO
@@ -40,3 +40,5 @@ EXTRA:
 [] french/english website
 [] Check compatibility on other browsers
 [] SVG polyline (burger/X)
+[] responsive nav hover top to pop up on desktop mode
+[] highlight the nav based on current page

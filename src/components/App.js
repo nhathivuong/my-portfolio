@@ -11,16 +11,19 @@ import Home from "./Home"
 import About from "./About"
 import Portfolio from "./Portfolio"
 import Contact from "./Contact"
+// Component
+import NavBar from "./NavBar";
 
 const App = () => {
     return (
         <Router>
-            <h1 className="text-5xl cobalt ">dot web</h1>
+            <NavBar/>
+            <h1 className="text-5xl font-underline font-bold uppercase p-4 bg-linear-to-b bg-cobalt border-b-5">dot web</h1>
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/about" element={<About/>}/>
                 <Route path="/portfolio" element={<Portfolio/>}/>
-                <Route path="/Contact" element={<Contact/>}/>
+                <Route path="/contact" element={<Contact/>}/>
                 <Route path="/*" element={<Navigate to="/"/>}/>
             </Routes>
         </Router>

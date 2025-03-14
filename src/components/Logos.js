@@ -3,7 +3,7 @@
 
 const Logos = () => {
     return (
-        <div className="flex justify-between items-center flex-row h-20 border-t-2">
+        <div className="flex justify-around items-center flex-row h-20 border-t-2">
             <img className="max-h-15 p-1" src="/assets/logos/html.png" alt="html logo"/>
             <img className="max-h-15 p-1" src="/assets/logos/css.png" alt="css logo"/>
             <img className="max-h-15 p-1" src="/assets/logos/javascript.png" alt="javascript logo"/>

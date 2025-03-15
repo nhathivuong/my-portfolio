@@ -10,7 +10,7 @@ const TicTacToe = () =>{
                 <li><p>useState and useEffect</p></li>
                 <li>
                     <p className="font-bold italic mt-2">Bot Ai</p>
-                    <ul>
+                    <ul className="text-sm">
                         <li><p className="italic">plays a winning move</p></li>
                         <li><p className="italic">plays a blocking move</p></li>
                         <li><p className="italic">Plays in the middle square</p></li>
@@ -20,7 +20,7 @@ const TicTacToe = () =>{
             </div>
             <div>
             <h3 className="text-3xl font-mont font-bold capitalize p-4">tic-tac-toe</h3>
-            <img src="/assets/portfolio/tictactoe.gif" alt="a tic tac toe game" className="w-200"/>
+            <img src="/assets/portfolio/tictactoe.gif" alt="a tic tac toe game" className="w-200 border-2"/>
             </div>
         </div>
     )

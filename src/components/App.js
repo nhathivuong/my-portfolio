@@ -18,7 +18,7 @@ const App = () => {
     return (
         <Router>
             <NavBar/>
-            <h1 className="text-5xl font-underline font-bold uppercase p-4 pt-0 bg-linear-to-b bg-cobalt border-b-5">dot web</h1>
+            <h1 className="text-5xl font-underline font-bold text-white uppercase bg-cobalt absolute top-0 left-0 p-4 inline rounded-br-md">dot web</h1>
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/about" element={<About/>}/>

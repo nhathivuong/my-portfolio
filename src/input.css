@@ -12,4 +12,8 @@
     --color-cobalt: oklch(63.23% 0.1966 268.84);
     /* #c7e8f3 */
     --color-pale : oklch(91.06% 0.0377 219.91);
+    /* #5a5d62 */
+    --color-grayish: oklch(47.74% 0.0089 260.73);
+    /* #f6d64a */
+    --color-yellow: oklch(90.92% 0.0802 94.39);
 }

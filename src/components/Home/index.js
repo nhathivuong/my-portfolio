@@ -8,11 +8,11 @@ const Home = () => {
     return (
         <div className="text-center p-21">
             <TextContainer>
-            <h2 className="text-7xl font-mont uppercase mix-blend-screen p-[10px] ">Nha-Thi Vuong</h2>
-            <div className="flex justify-center items-center">
-                <a href="https://www.linkedin.com/in/nha-thi-vuong/"><img src="/assets/logos/InBug-White.png" alt="LinkedIn logo" className="h-8" draggable="false"/></a>
-                <a href="mailto:nhathivuong@gmail.com"><IoIosMail className="text-5xl ml-3 mr-3" draggable="false"/></a>
-                <a href="https://github.com/nhathivuong"><img src="/assets/logos/github-mark-white.png" alt="github logo" className="h-8" draggable="false"/></a>
+            <h2 className="text-7xl font-mont uppercase mix-blend-screen p-[10px]">Nha-Thi Vuong</h2>
+            <div className="flex justify-around justify-self-center items-center">
+                <a href="https://www.linkedin.com/in/nha-thi-vuong/"><img src="/assets/logos/InBug-White.png" alt="LinkedIn logo" className="h-8 ml-4" draggable="false"/></a>
+                <a href="mailto:nhathivuong@gmail.com"><IoIosMail className="text-5xl ml-4 mr-4" draggable="false"/></a>
+                <a href="https://github.com/nhathivuong"><img src="/assets/logos/github-mark-white.png" alt="github logo" className="h-8 mr-4" draggable="false"/></a>
             </div>
             <p className="text-3xl font-fira mt-2">Full-Stack Web Developper based in Montreal</p>
             <p className="font-fira mt-1 mb-5 w-2xl text-justify justify-self-center items-center"> I've mainly worked with the MERN stack. In my school projects, I went beyond the requirements to explore more technologies, which led me to learn Styled Components and Tailwind. </p>
@@ -31,7 +31,7 @@ const TextContainer = styled.div`
     padding: 10px;
     width:70%;
     text-align:center;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 0 1px 2px black;
     position: absolute;
     top: 50%;

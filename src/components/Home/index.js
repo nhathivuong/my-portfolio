@@ -1,11 +1,12 @@
 //dependencies
 import { IoIosMail } from "react-icons/io";
+
 //component
 import Logos from "../Logos";
 
 const Home = () => {
     return (
-        <div className="sm:absolute sm:top-[50%] sm:left-[50%] sm:translate-[-50%] w-dvw sm:w-[90vw] xl:w-[60vw] mt-10 p-2 drop-shadow-sm justify-self-center text-center xl:text-white xl:hover:bg-slate-900 ring-4 inset-ring sm:rounded-xl ">
+        <div className="sm:absolute sm:top-[50%] sm:left-[50%] sm:translate-[-50%] w-svw sm:w-[90vw] xl:w-[60vw] mt-10 p-2 drop-shadow-sm justify-self-center text-center xl:text-white hover:xl:bg-slate-900 ring-4 inset-ring sm:rounded-xl ">
             <h1 className="text-4xl sm:text-7xl font-mont font-bold uppercase p-[10px] xl:drop-shadow-[1px_1px_1px_black]">Nha-Thi Vuong</h1>
             <div className="flex justify-around justify-self-center items-center">
                 <a href="https://www.linkedin.com/in/nha-thi-vuong/">

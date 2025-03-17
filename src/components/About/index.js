@@ -1,7 +1,6 @@
 
 const About = () => {
     return (<>
-    
         <div className="flex justify-center justify-self-center items-center flex-col gap-2 mb-8 sm:w-[90vw] xl:w-[60vw] sm:rounded-xl xl:text-white">
         <h1 className="text-4xl sm:text-5xl font-mont font-bold w-100% text-center uppercase p-2 mt-8 mb-4 xl:drop-shadow-[1px_1px_1px_black]">About Me</h1>
             <h2 className="text-xl sm:text-3xl font-mont font-bold xl:drop-shadow-[1px_1px_1px_black]">My past experiences</h2>

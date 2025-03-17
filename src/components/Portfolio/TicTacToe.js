@@ -1,6 +1,6 @@
 const TicTacToe = () =>{
     return (
-        <div className="text-center xl:text-white flex justify-center sm:justify-between justify-self-center items-center flex-col sm:flex-row sm:flex-wrap gap-4 w-fit m-5 xl:p-2 xl:drop-shadow-[1px_1px_1px_black] hover:bg-slate-900 rounded-sm">
+        <div className="text-center xl:text-white flex justify-center justify-self-center items-center flex-col sm:flex-row sm:flex-wrap gap-4 w-full sm:w-[90vw] xl:w-[60vw] m-5 p-2 sm:p-4 xl:drop-shadow-[1px_1px_1px_black] ring-4 inset-ring xl:hover:bg-slate-900 sm:rounded-xl">
             <div className="sm:w-[70%]">
                 <h2 className="text-xl sm:text-3xl font-mont font-bold capitalize p-2">tic-tac-toe</h2>
                 <img src="/assets/portfolio/tictactoe.gif" alt="a tic tac toe game" className="ring-2 inset-ring border-3 border-black"/>

@@ -1,9 +1,9 @@
 const TicTacToe = () =>{
     return (
-        <div className="text-center xl:text-white flex justify-center justify-self-center items-center flex-col sm:flex-row sm:flex-wrap gap-4 w-full sm:w-[90vw] xl:w-[60vw] m-5 p-2 sm:p-4 xl:drop-shadow-[1px_1px_1px_black] ring-4 inset-ring xl:hover:bg-slate-900 sm:rounded-xl">
+        <div className="text-center text-white flex justify-center justify-self-center items-center flex-col sm:flex-row sm:flex-wrap gap-4 w-screen sm:w-[90dvw] xl:w-[60dvw] m-5 p-2 sm:p-4 drop-shadow-[1px_1px_1px_black] ring-4 inset-ring hover:bg-slate-900 sm:rounded-xl">
             <div className="sm:w-[70%]">
                 <h2 className="text-xl sm:text-3xl font-mont font-bold capitalize p-2">tic-tac-toe</h2>
-                <img src="/assets/portfolio/tictactoe.gif" alt="a tic tac toe game" className="ring-2 inset-ring border-3 border-black"/>
+                <img loading="lazy" src="/assets/portfolio/tictactoe.gif" alt="a tic tac toe game" className="ring-2 inset-ring border-3 border-black"/>
             </div>
             <div className="text-left w-full sm:w-fit">
                 <h3 className="text-md sm:text-xl font-mont font-bold capitalize mb-2">features</h3>

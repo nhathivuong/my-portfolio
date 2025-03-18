@@ -22,5 +22,5 @@ To ensure responsive design, I used Tailwind’s mobile-first approach, which al
 
 Deployment
 
-The portfolio is deployed using Netlify.
+The portfolio is deployed using Vercel.
 

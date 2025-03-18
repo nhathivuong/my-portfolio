@@ -2,7 +2,7 @@
 import { IoIosMail } from "react-icons/io";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { IoLogoGithub } from "react-icons/io";
-import "./output.css"
+import "../../output.css"
 
 //component
 import Logos from "../Logos";

@@ -211,9 +211,6 @@
     @media (width >= 40rem) {
       max-width: 40rem !important;
     }
-    @media (width >= 40rem) {
-      max-width: 40rem !important;
-    }
     @media (width >= 48rem) {
       max-width: 48rem !important;
     }
@@ -229,9 +226,6 @@
   }
   .container {
     width: 100%;
-    @media (width >= 40rem) {
-      max-width: 40rem;
-    }
     @media (width >= 40rem) {
       max-width: 40rem;
     }
@@ -589,6 +583,11 @@
       color: var(--color-white);
     }
   }
+  .max-sm\:w-screen {
+    @media (width < 40rem) {
+      width: 100vw;
+    }
+  }
   .sm\:absolute {
     @media (width >= 40rem) {
       position: absolute;
@@ -622,11 +621,6 @@
   .sm\:flex {
     @media (width >= 40rem) {
       display: flex;
-    }
-  }
-  .max-sm\:w-screen {
-    @media (width >= 40rem) {
-      width: 100vw;
     }
   }
   .sm\:w-\[32\%\] {

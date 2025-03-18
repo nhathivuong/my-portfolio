@@ -3,7 +3,7 @@
 
 const Logos = () => {
     return (
-        <div className="flex justify-around justify-self-center items-center flex-row flex-wrap h-fit max-xl:max-w-[500px] w-screen xl:w-[50dvw] bg-white rounded-md shadow-2xs my-4">
+        <div className="flex justify-around justify-self-center items-center flex-row flex-wrap h-fit w-screen sm:w-[500px] xl:w-[98%] bg-white rounded-md shadow-2xs my-4">
             <img className="max-h-15 p-2" src="/assets/logos/html.png" alt="html logo" draggable="false" loading="lazy"/>
             <img className="max-h-15 p-2" src="/assets/logos/css.png" alt="css logo" draggable="false" loading="lazy"/>
             <img className="max-h-15 p-2" src="/assets/logos/javascript.png" alt="javascript logo" draggable="false" loading="lazy"/>

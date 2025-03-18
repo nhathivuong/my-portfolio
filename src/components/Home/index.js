@@ -20,7 +20,7 @@ const Home = () => {
                 </a>
             </div>
             <h2 className="text-xl sm:text-3xl font-fira mt-2 drop-shadow-[1px_1px_1px_black]">Full-Stack Web Developper based in Montreal</h2>
-            <p className="font-fira mt-1 mb-5 mx-3 sm:w-2xl text-justify justify-self-center items-center drop-shadow-[1px_1px_1px_black]"> I've mainly worked with the MERN stack. In my school projects, I went beyond the requirements to explore more technologies, which led me to learn Styled Components and Tailwind. </p>
+            <p className="font-fira mt-1 mb-5 mx-3 sm:w-[85%] xl:w-2xl text-justify justify-self-center items-center drop-shadow-[1px_1px_1px_black]"> I've mainly worked with the MERN stack. In my school projects, I went beyond the requirements to explore more technologies, which led me to learn Styled Components and Tailwind. </p>
             <Logos/>
         </div>
     )

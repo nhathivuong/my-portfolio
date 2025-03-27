@@ -14,7 +14,6 @@ const About = () => {
                             <li><p>Regulatory compliance</p></li>
                             <li><p>Data Analysis</p></li>
                         </ul>
-                        {/* <p className="text-left font-fira drop-shadow-[1px_1px_1px_black]">My most recent experience is as an analyst in AmorChem a venture capital. I learned how to pitch compagnies and product in order to get partnership and funding. I also learned to keep in touch with the latest news.</p> */}
                     </div>
                     <div className="p-4 max-sm:w-screen sm:rounded-md ring-2 inset-ring drop-shadow-sm hover:bg-slate-900">
                         <h3 className="text-md sm:text-xl text-left font-mont font-bold capitalize drop-shadow-[1px_1px_1px_black]">Full-Stack web development diploma</h3>

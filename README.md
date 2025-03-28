@@ -1,4 +1,8 @@
 # My Portfolio
+## **Deployment**
+
+The portfolio is currently deployed using Vercel without a responsive design.
+https://nhathivuongportfolio.vercel.app/
 
 ## **Design**
 After exploring multiple design ideas, I decided to settle on a simple, clean design. I challenged myself to go outside the box by choosing an off-white color palette, inspired by the subtle elegance of embossed paper.
@@ -17,10 +21,6 @@ To manage dark mode, I leveraged the prefers-color-scheme media query to detect 
 For navigation, I used React Router to enable seamless client-side routing, ensuring quick page transitions without full reloads. This improves the overall user experience by keeping interactions fast and smooth.
 
 To ensure responsive design, I used Tailwind’s mobile-first approach, which allows the layout to adapt smoothly across different screen sizes. The navigation bar and other key elements adjust dynamically, improving usability on both desktop and mobile devices.
-
-## **Deployment**
-
-The portfolio is deployed using Vercel.
 
 _Note: the landscape images are my own_
 

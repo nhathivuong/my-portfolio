@@ -2,7 +2,6 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://nhathivuong.github.io/my-portfolio",
   "repository": "https://github.com/nhathivuong/my-portfolio.git",
   "author": "Nha Thi Vuong <nhathivuong@gmail.com>",
   "license": "MIT",

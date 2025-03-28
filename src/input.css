@@ -9,7 +9,4 @@
     --font-underline: "Montserrat Underline", ui-sans-serif, system-ui, sans-serif;
     /* #5a7dff */
     --color-cobalt: oklch(63.23% 0.1966 268.84);
-    /* sizing */
-    --breakpoint-sm: 40rem;
-    --breakpoint-xl: 80rem;
 }
